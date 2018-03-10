@@ -1,0 +1,85 @@
+.mainDiv{
+  background: yellow;
+  display: flex;
+text-align: center;
+
+  justify-content: space-around;
+}
+
+.sub1{
+  background: red;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 0 black;
+  height:200px;
+}
+
+.sub2{
+  background: pink;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 0 black;
+  height:200px;
+}
+
+.sub3{
+  background: green;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 0 black;
+  height:200px;
+}
+body{
+  text-align: center;
+  background:#BAF1AD
+}
+.image1{
+padding: 6px;
+  width: 200px;
+  height: 200px;
+  text-align:center;
+  border: solid;
+}
+.image2{
+padding: 6px;
+  width: 200px;
+  height: 200px;
+  text-align:center;
+  border: solid;
+}
+
+.image3{
+padding: 6px;
+  width: 200px;
+  height: 200spx;
+  text-align:center;
+  border: solid;
+
+}
+@media all and (max-width:768px) {
+  .mainDiv{
+    flex-wrap: wrap;
+
+
+}
+.sub1{
+ width:100%;
+ display: flex;
+ margin: 5px;
+}
+.sub2{
+ width:100%;
+ display: flex;
+ margin: 7px;
+}
+.sub3{
+ width:100%;
+  display: flex;
+  margin: 9px;
+}
+.image1{
+  border-radius: 15px;
+height: 150px;
+}
+
+}
+.carrer{
+  color: teal;
+}
